@@ -1,0 +1,5 @@
+https://github.com/go-martini/martini
+
+https://golangrepo.com/repo/codegangsta-martini-go-frameworks-and-toolkits#handlers
+
+https://www.sohamkamani.com/golang/json/#json-struct-tags---custom-field-names

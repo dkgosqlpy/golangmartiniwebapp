@@ -1,0 +1,22 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Page Title</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                 <li><a href="http://localhost:3000/courses/33">Course List</a></li>
+                 <li><a href="http://localhost:3000/studentlist">Student List</a></li>  
+            </ul>
+        </nav>  
+    <h1>Course List</h1>
+    <table>
+        <tr><th>ID</th><th>Course Name</th><th>Description</th><th>Course Prof Name</th></tr> 
+        
+        {{range .}}
+            <tr><td>{{.ID}}</td><td>{{.CourseName}}</td><td>{{.Description}}</td><td>{{.CourseProfName}}</td></tr>
+        {{end}}
+    </table>
+    </body>
+    </html>
